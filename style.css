@@ -5,9 +5,9 @@
 }
 
 .Header{
-    background: #0b0b0b;
+    background: #000000;
     color: #fff;
-    padding: 12px 0;
+    padding: 10px 0;
 }
 
 nav.container{
@@ -32,6 +32,12 @@ nav.container{
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
+}
+
+.Path-header{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
 }
 
 .nav-link:hover{
@@ -104,5 +110,41 @@ nav.container{
     .hero-title{ font-size: 32px; }
     .nav-links{ display: none; }
     .feature-img{ height: 180px; }
+}
+.Path-Header{
+    background-color: #000000;
+    color: #fff;
+    justify-content: center;
+}
+
+nav.Path-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-Box{
+    background-color: #232323;
+    width: 40%;
+    border-radius:20px;
+}
+.serif{
+    overflow: hidden;
+}
+.Path-header{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow:3px 3px #892020 ;
+}
+
+.p-3-1{
+    margin-top:6%;
+    text-align:left;
+}
+
+.MutoYugiIMG{
+    width: 40%;
+    border-radius:20px ;
+
 }
 

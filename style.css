@@ -111,6 +111,10 @@ nav.container{
     .nav-links{ display: none; }
     .feature-img{ height: 180px; }
 }
+
+.Path-body{
+    background-color: #cccccc;
+}
 .Path-Header{
     background-color: #000000;
     color: #fff;
@@ -137,14 +141,33 @@ nav.Path-container{
     text-shadow:3px 3px #892020 ;
 }
 
-.p-3-1{
-    margin-top:6%;
-    text-align:left;
-}
-
 .MutoYugiIMG{
-    width: 40%;
-    border-radius:20px ;
+    width: 20%;
+    border-radius:30px;
+    padding: 20px;
+    float: left;
 
 }
 
+.MutoYugi{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:20px ;
+    float: left;
+    padding: 3%;
+    height: 353px;
+    width: 75%;  
+    background-color: #e0e0e0;
+    float: left;
+    border-radius:10px;
+}
+
+.MutoYugiHeader{
+    font-size: 50px;
+    text-align: left;
+}
+
+.MutoYugiTitle{
+    font-size: 18px;
+    text-align: left;
+
+}

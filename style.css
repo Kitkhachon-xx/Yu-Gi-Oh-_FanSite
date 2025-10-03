@@ -141,7 +141,7 @@ nav.Path-container{
     text-shadow:3px 3px #892020 ;
 }
 
-.MutoYugiIMG{
+.card-img-top-MutoYugiIMG{
     width: 20%;
     border-radius:30px;
     padding: 20px;
@@ -170,4 +170,97 @@ nav.Path-container{
     font-size: 18px;
     text-align: left;
 
+}
+.SetoKaibaIMG{
+    border-radius:12px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.feature-card-kaiba{
+    background: #a1bff1;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top:4% ;
+    text-align: center;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+}
+
+.feature-card-kaiba:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(51, 18, 238, 0.734);
+}
+
+.KaibaTitle{
+    color: #000000;
+    font:bold ;
+    font-size: 30px;    
+    text-shadow:1px 2px #545ee5;
+}
+.features-Character{
+    padding: 48px 0 80px;
+    justify-content: space-between;
+    display: block;    
+}
+
+.KatsuyaJonouchiIMG{
+    border-radius:12px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.feature-card-Jonouci{
+    background: #d3d365;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top:4% ;
+    text-align: center;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+}
+
+.feature-card-Jonouci:hover{
+    transform: translateY(-10px);
+    box-shadow:0 12px 12px #f0c040;
+}
+
+.JonouchiTitle{
+    color: #000000; 
+    font:bold ;
+    font-size: 30px;    
+    text-shadow:1px 2px #ffee00d3;
+}
+
+.MarikIshtarIMG{
+    border-radius:12px;
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.feature-card-Ishtar{
+    background: #a12108;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top:4% ;
+    text-align: center;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+}
+
+.feature-card-Ishtar:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 12px 12px #f92a01;
+}
+
+.IshtarTitle{
+    color: #000000; 
+    font:bold ;
+    font-size: 30px;    
+    text-shadow:1px 2px #b50c03f8;
 }

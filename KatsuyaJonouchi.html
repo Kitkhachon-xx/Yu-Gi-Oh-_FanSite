@@ -3,20 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet"  href = "style.css">
+    <link rel = "stylesheet"  href = "CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Katsuya Jonouchi</title>
+    <link rel="icon" type="image/x-icon" href="IMG/yugiohLogo.jpg">
 </head>
-<body>
-    <header class="Header">
-        <nav class="container">
+<body class="Path-body">
+     <header class="Path-Header">
+        <nav class="Path-container">
             <a href="index.html"><img class="Logo" src="IMG/Logo.jpg" alt="Logo"></a>
-            <ul class="nav-links">
-                <li><a class="nav-link" href="Deck.html">Deck</a></li>
-                <li><a class="nav-link" href="TimeLine.html">TimeLine</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+                <div class = "Header-Box">
+                    <h1 class="Path-header">Character Info</h1>
+                </div>
+            <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="PuzzleDropD" src="https://www.qbfox.gr/wp-content/uploads/2024/03/Millennium-Puzzle-1.webp">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Home</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/Kitkhachon-xx">My Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
         </nav>
-    </header>
+    </header>  
+    
+    <main>
+    <div class = "Yugi-container">
+        <div class="card-MutoYugi" >
+            <img class = "KatsuyaIMG" src="IMG/Katsuya2.jpg" alt="MutoYugi">
+            <div class = "card-body">
+                <article class = "Katsuya">
+                    <h1 class = "MutoYugiHeader">Katsuya Jonouchi</h1>
+                    <p class = "MutoYugiTitle">Jounouchi is Yugi’s best friend, known for his loyalty, courage, humor, and kind heart. Although he initially bullied Yugi, he later realized he was jealous of Yugi’s “treasure” — his kindness and pure heart. After Yugi stood up for him and Honda against Ushio, Jounouchi retrieved the final piece of the Millennium Puzzle and brought it back to Yugi, marking the beginning of their true friendship.
+Jounouchi is skilled at fist fighting and can take on opponents larger than himself. Even though he wasn’t a good gamer at first, he grew to enjoy games thanks to Yugi’s influence. With training, he became strong enough to compete in the Duelist Kingdom and Battle City tournaments for the sake of his sister, eventually becoming skilled enough to rival Dark Yugi.
+He is selfless, caring, and brave, though sometimes reckless and overconfident, which adds comic relief to the story. Despite his tough exterior, he has a strong fear of ghosts and anything creepy. Before meeting Yugi, he lacked motivation in life, but through their friendship, he learned to channel his emotions into something positive — turning his anger into passion for games instead of fighting.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+  
+
+        <section class="features-Character container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card text-bg-secondary" style="width: 18rem; margin-top:10%; height: 350px;">
+                        <a href="MutoYugi.html" class = "card-link">  
+                        <article class="feature-card-Yugi">
+                                <img class="MutoyugiIMG" src = "https://media.tenor.com/tWZncI1IdqEAAAAM/yugi-muto-thumbs-up.gif" alt = "SetoKaibaIMG">
+                                <h1 class="yugiTitle">Muto Yugi</h1>
+                        </article>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                    <div class="card text-bg-secondary" style="width: 18rem; margin-top:10%; height: 350px;">
+                        <a href="SetoKaiba.html" class = "card-link">  
+                        <article class="feature-card-kaiba">
+                                <img class="SetoKaibaIMG" src = "https://media.tenor.com/5yNw438s_L0AAAAM/kaiba-duel-disk.gif" alt = "SetoKaibaIMG">
+                                <h1 class="KaibaTitle">Seto Kaiba</h1>
+                        </article>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-4">
+                        <div class = "card text-bg-secondary " style="width: 18rem; margin-top:10%; height: 350px;">
+                            <a href = "MarikIshtar.html" class = "card-link">
+                                <article class = "feature-card-Ishtar">
+                                    <img class = "MarikIshtarIMG" src = "https://media.tenor.com/A_LD8plpEMoAAAAM/yugioh-yugioh-duel-monsters.gif" alt = "Marik Ishtar">
+                                    <h1 class = "IshtarTitle">Marik Ishtar</h1>
+                                </article>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <p>Contact: kitkhachonchi@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>    
+
 </body>
 </html>

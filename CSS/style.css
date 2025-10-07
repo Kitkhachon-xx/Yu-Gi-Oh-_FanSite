@@ -1,386 +1,448 @@
-.Logo{
-    display: block;
-    width: 180px;
-    height: auto;
-}
+    .Logo{
+        display: block;
+        width: 180px;
+        height: auto;
+    }
 
-.Header{
-    background: #000000;
-    color: #fff;
-    padding: 10px 0;
-    overflow: visible; /* allow dropdowns to show outside header */
-}
+    .Header{
+        background: #000000;
+        color: #fff;
+        padding: 10px 0;
+        overflow: visible; /* allow dropdowns to show outside header */
+    }
 
-nav.Main-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    nav.Main-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.nav-links{
-    list-style: none;
+    .nav-links{
+        list-style: none;
+        margin: 0;
+        padding: 0 60px 0 0;
+    }
+
+    .nav-links li{
+        display: inline-block;
+        margin-left: 24px;
+    }
+
+    .nav-link{
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .Path-header{
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nav-link:hover{
+        color: #f0c040;
+    }
+
+    /* Hero */
+    .hero{
+        background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(25,25,25,1) 100%);
+        color: #fff;
+        padding: 80px 0 60px;
+        text-align: center;
+    }
+
+    .hero-title{
+        font-size: 48px;
+        margin: 0 0 10px;
+        letter-spacing: 1px;
+    }
+
+    .hero-sub{
+        font-size: 18px;
+        color: #ddd;
+        margin: 0;
+    }
+
+    /* Features */
+    .features{
+        padding: 48px 0 80px;
+    }
+
+    .feature-card{
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 12px;
+        text-align: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    .feature-card:hover{
+        transform: translateY(-6px);
+        box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+    }
+
+    .feature-img{
+        display: block;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .feature-title{
+        margin: 12px 0 4px;
+        font-size: 20px;
+        color: #111;
+    }
+
+
+    .features-Character{
+        margin-top :  17%;
+    }
+
+    .card-link{ text-decoration: none; color: inherit; }
+
+    /* Ensure dropdown menus appear above other content */
+    .dropdown-menu{
+        z-index: 2000;
+    }
+
+
+
+    .site-footer{
+        background: #0b0b0b;
+        color: #cccccc;
+        padding: 18px 0;
+        text-align: center;
+        
+    }
+    /* Character page styles */
+    .features-Character{
+        padding: 36px 0 60px;
+    }
+
+    .Character-container{ display: flex; justify-content: center; }
+
+    .character-card{
+        width: 18rem;
+        margin-top: 2rem; /* smaller consistent gap */
+        height: 350px;
+        overflow: hidden;
+    }
+
+    /* ensure main grows so footer stays at bottom when content is short */
+    main{ min-height: calc(100vh - 140px); }
+
+
+    @media (max-width: 767px){
+        .hero-title{ font-size: 32px; }
+        .nav-links{ display: none; }
+        .feature-img{ height: 180px; }
+
+        .character-card{ width: 100%; height: auto; }
+    }
+
+    .Path-body{
+        background-color: #cccccc;
+    }
+    .Path-Header{
+        background-color: #000000;
+        color: #fff;
+        justify-content: center;
+    }
+
+    nav.Path-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Header-Box{
+        background-color: #232323;
+        width: 40%;
+        border-radius:20px;
+    }
+    .serif{
+        overflow: hidden;
+    }
+    .Path-header{
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow:3px 3px #892020 ;
+    }
+
+    .Yugi-container{
+        margin-right: auto;
+        margin-left:auto;
+        padding: 15px
+    }
+
+    .MutoYugiIMG{
+        width: 270px;
+        height: 40%;
+        border-radius:30px;
+        padding: 20px;
+        float: left;
+
+    }
+
+    .MutoYugi{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top:20px ;
+        float: left;
+        padding: 3%;
+        height: 353px;
+        width: 75%;  
+        background-color: #e0e0e0;
+        float: left;
+        border-radius:10px;
+    }
+
+    .MutoYugiHeader{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .MutoYugiTitle{
+        font-size: 18px;
+        text-align: left;
+        margin-bottom : 1.7em;  
+
+    }
+    .SetoKaibaIMG{
+        border-radius:12px;
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .feature-card-kaiba{
+        background: #a1bff1;
+        border-radius: 12px;
+        padding: 12px;
+        margin-top:4% ;
+        text-align: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+    }
+
+    .feature-card-kaiba:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 12px 28px rgba(51, 18, 238, 0.734);
+    }
+
+    .KaibaTitle{
+        color: #000000;
+        font:bold ;
+        font-size: 30px;    
+        text-shadow:1px 2px #545ee5;
+    }
+    .features-Character {
+        padding: 48px 0 80px;
+        justify-content: space-between;
+        display: block;    
+    }
+
+    .KatsuyaJonouchiIMG{
+        border-radius:12px;
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .feature-card-Jonouci{
+        background: #d3d365;
+        border-radius: 12px;
+        padding: 12px;
+        margin-top:4% ;
+        text-align: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+    }
+
+    .feature-card-Jonouci:hover{
+        transform: translateY(-10px);
+        box-shadow:0 12px 12px #f0c040;
+    }
+
+    .JonouchiTitle{
+        color: #000000; 
+        font:bold ;
+        font-size: 30px;    
+        text-shadow:1px 2px #ffee00d3;
+    }
+
+    .MarikIshtarIMG{
+        border-radius:12px;
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .feature-card-Ishtar{
+        background: #a12108;
+        border-radius: 12px;
+        padding: 12px;
+        margin-top:4% ;
+        text-align: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+    }
+
+    .feature-card-Ishtar:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 12px #f92a01;
+    }
+
+    .IshtarTitle{
+        color: #000000; 
+        font:bold ;
+        font-size: 30px;    
+        text-shadow:1px 2px #ff7b00;
+    }
+
+    .Character-container{
+        display: flex;
+        justify-content: center; /* จัดกึ่งกลางแนวนอน */
+        align-items: center;     /* จัดกึ่งกลางแนวตั้ง (ถ้าสูงพอ) */
+        flex-wrap: wrap;         /* ให้เรียงลงถ้ามีหลายคอลัมน์ */
+        gap: 30px;               /* ระยะห่างระหว่างการ์ด */
+        margin-top: 10px; 
+        width: auto;    
+    }   
+
+    .feature-card-Yugi{ 
+        background: #2236f3b4;  
+        border-radius: 12px;
+        padding: 12px;
+        margin-top:4% ;
+        text-align: center;
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+        box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+    }
+
+    .MutoyugiIMG{
+        border-radius:12px;
+        display: block;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .feature-card-Yugi:hover{
+            transform: translateY(-10px);
+            box-shadow: 0 12px 12px #fcf809;
+    }
+
+    .yugiTitle{
+        color: #000000; 
+        font:bold ;
+        font-size: 30px;    
+        text-shadow:1px 2px #00b3fff8;  
+    }
+
+        /*background: #0b0b0b;
+        color: #cccccc;
+        padding: 5% 0 5%;
+        text-align: center;*/
+
+        .Katsuya{
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top:20px ;
+        float: left;
+        padding: 2%;
+        height: 320px;
+        width: 75%; 
+        float: left; 
+        background-color: #e0e0e0;
+        border-radius:10px;
+    }
+
+    .KatsuyaIMG{
+        width: 18%;
+        height: 40%;
+        border-radius:30px;
+        padding: 20px;
+        float: left;
+
+    }
+
+    .MarikIMG{
+        width: 15%;
+        height: 40%;
+        border-radius:50px;
+        padding: 20px;
+        float: left;
+    }
+
+    .PuzzleDropD{
+        width: 30px;
+        height: 30px;
+    }
+
+    .MDHeader{  
+        display: flex;
+        width: 80%;
+        border-radius:20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top:2%;  
+    }
+
+    .MDHBody{
+    background-color: #3e3e3e;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
     margin: 0;
-    padding: 0 60px 0 0;
+    padding: 0;
 }
-
-.nav-links li{
-    display: inline-block;
-    margin-left: 24px;
-}
-
-.nav-link{
-    color: #fff;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.Path-header{
-    color: #ffffff;
-    font-size: 30px;
-    text-align: center;
-}
-
-.nav-link:hover{
-    color: #f0c040;
-}
-
-/* Hero */
-.hero{
-    background: linear-gradient(180deg, rgba(11,11,11,1) 0%, rgba(25,25,25,1) 100%);
-    color: #fff;
-    padding: 80px 0 60px;
-    text-align: center;
-}
-
-.hero-title{
-    font-size: 48px;
-    margin: 0 0 10px;
-    letter-spacing: 1px;
-}
-
-.hero-sub{
-    font-size: 18px;
-    color: #ddd;
-    margin: 0;
-}
-
-/* Features */
-.features{
-    padding: 48px 0 80px;
-}
-
-.feature-card{
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 12px;
-    text-align: center;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-}
-
-.feature-card:hover{
-    transform: translateY(-6px);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.18);
-}
-
-.feature-img{
-    display: block;
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.feature-title{
-    margin: 12px 0 4px;
-    font-size: 20px;
-    color: #111;
-}
-
-
-.features-Character{
-    margin-top :  17%;
-}
-
-.card-link{ text-decoration: none; color: inherit; }
-
-/* Ensure dropdown menus appear above other content */
-.dropdown-menu{
-    z-index: 2000;
-}
-
-
-
-.site-footer{
-    background: #0b0b0b;
-    color: #cccccc;
-    padding: 18px 0;
-    text-align: center;
     
-}
-/* Character page styles */
-.features-Character{
-    padding: 36px 0 60px;
-}
-
-.Character-container{ display: flex; justify-content: center; }
-
-.character-card{
-    width: 18rem;
-    margin-top: 2rem; /* smaller consistent gap */
-    height: 350px;
-    overflow: hidden;
-}
-
-/* ensure main grows so footer stays at bottom when content is short */
-main{ min-height: calc(100vh - 140px); }
 
 
-@media (max-width: 767px){
-    .hero-title{ font-size: 32px; }
-    .nav-links{ display: none; }
-    .feature-img{ height: 180px; }
 
-    .character-card{ width: 100%; height: auto; }
-}
 
-.Path-body{
-    background-color: #cccccc;
-}
-.Path-Header{
-    background-color: #000000;
-    color: #fff;
-    justify-content: center;
-}
-
-nav.Path-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.Header-Box{
-    background-color: #232323;
-    width: 40%;
-    border-radius:20px;
-}
-.serif{
-    overflow: hidden;
-}
-.Path-header{
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow:3px 3px #892020 ;
-}
-
-.Yugi-container{
-    margin-right: auto;
-    margin-left:auto;
-    padding: 15px
-}
-
-.MutoYugiIMG{
-    width: 270px;
-    height: 40%;
-    border-radius:30px;
-    padding: 20px;
-    float: left;
-
-}
-
-.MutoYugi{
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top:20px ;
-    float: left;
-    padding: 3%;
-    height: 353px;
-    width: 75%;  
-    background-color: #e0e0e0;
-    float: left;
-    border-radius:10px;
-}
-
-.MutoYugiHeader{
-    font-size: 50px;
-    text-align: left;
-}
-
-.MutoYugiTitle{
-    font-size: 18px;
-    text-align: left;
-    margin-bottom : 1.7em;  
-
-}
-.SetoKaibaIMG{
-    border-radius:12px;
-    display: block;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-.feature-card-kaiba{
-    background: #a1bff1;
+.ARC {
+    background: #1a1a1a;
+    border: 1px solid #333;
     border-radius: 12px;
-    padding: 12px;
-    margin-top:4% ;
-    text-align: center;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-.feature-card-kaiba:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 12px 28px rgba(51, 18, 238, 0.734);
+.DULKDH{
+    color: #ffda6b;
+    border-left: 4px solid #ffda6b;
+    padding-left: 8px;
 }
 
-.KaibaTitle{
-    color: #000000;
-    font:bold ;
-    font-size: 30px;    
-    text-shadow:1px 2px #545ee5;
-}
-.features-Character {
-    padding: 48px 0 80px;
-    justify-content: space-between;
-    display: block;    
+
+.KeyPoint{
+    list-style-type: square;
+    margin-left: 1.5rem;
 }
 
-.KatsuyaJonouchiIMG{
-    border-radius:12px;
+.DULMNT-IMG{
     display: block;
+    margin: 1rem auto;
     width: 100%;
-    height: 250px;
-    object-fit: cover;
+    max-width: 700px;
+    border-radius: 10px;
 }
 
-.feature-card-Jonouci{
-    background: #d3d365;
-    border-radius: 12px;
-    padding: 12px;
-    margin-top:4% ;
-    text-align: center;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
-}
-
-.feature-card-Jonouci:hover{
-    transform: translateY(-10px);
-    box-shadow:0 12px 12px #f0c040;
-}
-
-.JonouchiTitle{
-    color: #000000; 
-    font:bold ;
-    font-size: 30px;    
-    text-shadow:1px 2px #ffee00d3;
-}
-
-.MarikIshtarIMG{
-    border-radius:12px;
-    display: block;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.feature-card-Ishtar{
-    background: #a12108;
-    border-radius: 12px;
-    padding: 12px;
-    margin-top:4% ;
-    text-align: center;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
-}
-
-.feature-card-Ishtar:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 12px 12px #f92a01;
-}
-
-.IshtarTitle{
-    color: #000000; 
-    font:bold ;
-    font-size: 30px;    
-    text-shadow:1px 2px #ff7b00;
-}
-
-.Character-container{
-    display: flex;
-    justify-content: center; /* จัดกึ่งกลางแนวนอน */
-    align-items: center;     /* จัดกึ่งกลางแนวตั้ง (ถ้าสูงพอ) */
-    flex-wrap: wrap;         /* ให้เรียงลงถ้ามีหลายคอลัมน์ */
-    gap: 30px;               /* ระยะห่างระหว่างการ์ด */
-    margin-top: 10px; 
-    width: auto;    
-}   
-
-.feature-card-Yugi{ 
-    background: #2236f3b4;  
-    border-radius: 12px;
-    padding: 12px;
-    margin-top:4% ;
-    text-align: center;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-    box-shadow: 0 6px 18px rgba(8, 25, 209, 0.12);
-}
-
-.MutoyugiIMG{
-    border-radius:12px;
-    display: block;
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.feature-card-Yugi:hover{
-        transform: translateY(-10px);
-        box-shadow: 0 12px 12px #fcf809;
-}
-
-.yugiTitle{
-    color: #000000; 
-    font:bold ;
-    font-size: 30px;    
-    text-shadow:1px 2px #00b3fff8;  
-}
-
-    /*background: #0b0b0b;
-    color: #cccccc;
-    padding: 5% 0 5%;
-    text-align: center;*/
-
-    .Katsuya{
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top:20px ;
-    float: left;
-    padding: 2%;
-    height: 320px;
-    width: 75%; 
-    float: left; 
-    background-color: #e0e0e0;
-    border-radius:10px;
-}
-
-.KatsuyaIMG{
-    width: 18%;
-    height: 40%;
-    border-radius:30px;
-    padding: 20px;
-    float: left;
-
-}
-
-.MarikIMG{
-    width: 15%;
-    height: 40%;
-    border-radius:50px;
-    padding: 20px;
-    float: left;
-}
-
-.PuzzleDropD{
-    width: 30px;
-    height: 30px;
+.CutLine{
+    margin-top: 2%;
+    margin-bottom: 2px;
+    width: 100% ;
+    height: 4px;
+    border: none;
+    background-color: #ffda6b;
 }

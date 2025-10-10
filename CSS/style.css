@@ -446,3 +446,19 @@
     border: none;
     background-color: #ffda6b;
 }
+
+/* Deck page specific styles (added to match Yu.pdf layout) */
+.Deck-features{ padding: 48px 0 80px; }
+.deck-card{ display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.deck-card .feature-img{ height: 400px; object-fit: cover; border-radius: 8px; }
+.deck-card .feature-title{ font-size: 18px; margin: 0; }
+.deck-card .card-text{ color: #444; }
+.Deck-features .card-link{ margin-top: auto; color: #0b5ed7; text-decoration: none; font-weight: 600; }
+.Deck-features .card-link:hover{ text-decoration: underline; }
+
+/* Small polish for hero on Deck page */
+.hero.Subtle{ padding: 60px 0 40px; }
+
+@media (max-width: 767px){
+    .deck-card .feature-img{ height: 160px; }
+}

@@ -3,6 +3,7 @@
         width: 180px;
         height: auto;
     }
+    
 
     .Header{
         background: #000000;
@@ -497,3 +498,114 @@
 
 }
 
+.DMGBody{
+    background-color: #3e3e3e;
+    margin: 0;
+}
+
+.DMGDeckBody{
+    position: relative;
+    top: 20px;
+    left: 5%;
+    background-image: linear-gradient(to left, #00000000, #ca188097 90%),url("https://i.pinimg.com/736x/7d/83/c3/7d83c3713e955e870146cf21dcb8520c.jpg");
+    background-position-x:150%, 150%;
+    background-position-y:20% , 20%;
+    background-size: cover;
+    margin: 0;
+    width: 30%;
+    padding:20px;
+    border-radius:10px;
+}
+
+.DMGIMG{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    filter: drop-shadow(10px 5px 4px #551a75);
+}
+
+.DMGH1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow:3px 3px #892020 ;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.Deck{
+    position: relative;
+    top: 50px;
+    padding: 0% 5% 5% 5%;
+}
+
+.DeckIMG{
+    width: 150px;
+    height: auto;
+    margin: 5px;
+}
+
+.DMGDeckBody-BlueEyes{
+    position: relative;
+    top: 20px;
+    left: 5%;
+    background-image: linear-gradient(to left, #00000000, #504cd8 75%),url("https://i.pinimg.com/1200x/86/29/94/8629949b2c6df9d0bfc13cbc61e43652.jpg");
+    background-position-x:150%, 150%;
+    background-position-y:20% , 20%;
+    margin: 0;
+    width: 40%;
+    padding:20px;
+    border-radius:10px;
+    background-size: cover;
+}
+
+.DMGIMG-BEWD{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    filter: drop-shadow(10px 5px 4px #152fd9);
+}
+
+.DeckH3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 600,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.ExtraDeck{
+    position: relative;
+    top: 50px;
+    padding: 0% 5% 5% 5%;
+}
+
+.DMGDeckBody-RedEyes{
+    position: relative;
+    top: 20px;
+    left: 5%;
+    background-image: linear-gradient(to left, #00000000, #d84c4c 75%),url("https://i.pinimg.com/1200x/52/69/d4/5269d4e5801e6342a06b862205072488.jpg");
+    background-position-x:150%, 150%;
+    background-position-y:45% , 45%;
+    margin: 0;
+    width: 40%;
+    padding:20px;
+    border-radius:10px;
+    background-size: cover;
+}
+
+.DMGIMG-REBD{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    filter: drop-shadow(10px 5px 4px #e40707);
+}

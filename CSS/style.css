@@ -522,6 +522,7 @@
     height: auto;
     display: inline-block;
     filter: drop-shadow(10px 5px 4px #551a75);
+    border-radius:10px ;
 }
 
 .DMGH1{
@@ -564,6 +565,7 @@
     height: auto;
     display: inline-block;
     filter: drop-shadow(10px 5px 4px #152fd9);
+    border-radius:10px ;
 }
 
 .DeckH3{
@@ -603,9 +605,87 @@
     background-size: cover;
 }
 
+/* Page loader overlay */
+.page-loader{
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    transition: opacity 250ms ease, visibility 250ms ease;
+}
+.page-loader[aria-hidden="true"]{ opacity: 0; visibility: hidden; pointer-events: none; }
+.spinner{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 8px solid rgba(255,255,255,0.15);
+    border-top-color: #ffd54f; /* highlight color */
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{ to { transform: rotate(360deg); } }
+
+/* Hide loader quickly on small devices after load */
+@media (max-width: 480px){ .spinner{ width:56px; height:56px; border-width:6px; } }
 .DMGIMG-REBD{
     width: 20%;
     height: auto;
     display: inline-block;
     filter: drop-shadow(10px 5px 4px #e40707);
+    border-radius:10px ;
+}
+
+.SideDeck{
+    position: relative;
+    top: 50px;
+    padding: 0% 5% 5% 5%;
+}
+
+.DMGIMG-TWDOR{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    filter: drop-shadow(10px 5px 4px #f06e04);
+    border-radius: 10px;
+}
+
+.DMGDeckBody-GodRa{
+    position: relative;
+    top: 20px;
+    left: 5%;
+    background-image: linear-gradient(to left, #a3d41100, #ed6d17 85%),url("https://i.pinimg.com/1200x/fa/c0/f9/fac0f9e6aa10e93c37d243dd46caf6a5.jpg");
+    background-position-x:150%, 150%;
+    background-position-y:15% , 23%;
+    margin: 0;
+    width: 40%;
+    padding:20px;
+    border-radius:10px;
+    background-size: cover;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 60px;
+  aspect-ratio: 1;
+  border: 15px solid #ddd;
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  inset: -15px;
+  border-radius: 50%;
+  border: 15px solid #514b82;
+  animation: l18 2s infinite linear;
+}
+@keyframes l18 {
+    0%   {clip-path:polygon(50% 50%,0 0,0    0,0    0   ,0    0   ,0    0   )}
+    25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0   ,100% 0   ,100% 0   )}
+    50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+    75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    100%)}
+    100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0    100%,0    0   )}
 }

@@ -7,11 +7,14 @@
     <title>Yugi-OH-FanSite</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" type="image/x-icon" href="IMG/yugiohLogo.jpg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Page loader overlay -->
+    <div id="page-loader" class="page-loader" aria-hidden="false">
+        <div class="spinner" role="status" aria-label="Loading"></div>
+    </div>
     <header class="Header">
         <nav class="Main-container">
             <a href="index.html"><img class="Logo" src="IMG/Logo.jpg" alt="Logo"></a>
@@ -77,6 +80,15 @@
             <p>Contact: kitkhachonchi@gmail.com</p>
         </div>
     </footer>
+    <script>
+        (function(){
+            var loader = document.getElementById('page-loader');
+            if(!loader) return;
+            function hide(){ loader.setAttribute('aria-hidden','true'); setTimeout(function(){ if(loader && loader.parentNode) loader.parentNode.removeChild(loader); },300); }
+            window.addEventListener('load', hide);
+            setTimeout(hide, 6000);
+        })();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -1,0 +1,879 @@
+{
+ "blue-eyes-white-dragon": {
+  "name": "Blue-Eyes White Dragon",
+  "sections": [
+   {
+    "title": "Main Deck",
+    "cards": [
+     {
+      "id": "10000000",
+      "name": "Obelisk The Tormentor"
+     },
+     {
+      "id": "89631139",
+      "name": "Blue-Eyes White Dragon"
+     },
+     {
+      "id": "89631139",
+      "name": "Blue-Eyes White Dragon"
+     },
+     {
+      "id": "89631139",
+      "name": "Blue-Eyes White Dragon"
+     },
+     {
+      "id": "73398797",
+      "name": "Paradin of White Dragon"
+     },
+     {
+      "id": "17658803",
+      "name": "Luster Dragon C2"
+     },
+     {
+      "id": "82301904",
+      "name": "Chaos Emperor Dragon - Envoy of the End"
+     },
+     {
+      "id": "52824910",
+      "name": "Kaiser Glider"
+     },
+     {
+      "id": "31553716",
+      "name": "Spear Dragon"
+     },
+     {
+      "id": "43586926",
+      "name": "Twin-Headed Behemoth"
+     },
+     {
+      "id": "17985575",
+      "name": "Lord of D."
+     },
+     {
+      "id": "24611934",
+      "name": "Ryu-Kishin Powered"
+     },
+     {
+      "id": "62651957",
+      "name": "X-Head Cannon"
+     },
+     {
+      "id": "65622692",
+      "name": "Y-Dragon Head"
+     },
+     {
+      "id": "64500000",
+      "name": "Z-Metal Tank"
+     },
+     {
+      "id": "39507162",
+      "name": "Blade Knight"
+     },
+     {
+      "id": "14898066",
+      "name": "Vorse Raider"
+     },
+     {
+      "id": "5053103",
+      "name": "Battle Ox"
+     },
+     {
+      "id": "17444133",
+      "name": "Kaiser Sea Horse"
+     },
+     {
+      "id": "81985784",
+      "name": "Des Feral Imp"
+     },
+     {
+      "id": "68005187",
+      "name": "Soul Exchange"
+     },
+     {
+      "id": "43973174",
+      "name": "The Flute of Summoning Dragon"
+     },
+     {
+      "id": "55144522",
+      "name": "Pot of Greed"
+     },
+     {
+      "id": "79571449",
+      "name": "Graceful Charity"
+     },
+     {
+      "id": "59750328",
+      "name": "Card of Demise"
+     },
+     {
+      "id": "27847700",
+      "name": "Polymerization"
+     },
+     {
+      "id": "11082056",
+      "name": "The Fang of Critias"
+     },
+     {
+      "id": "83764719",
+      "name": "Monster Reborn"
+     },
+     {
+      "id": "98045062",
+      "name": "Enemy Controller"
+     },
+     {
+      "id": "55713623",
+      "name": "Shrink"
+     },
+     {
+      "id": "58641905",
+      "name": "Ring of Defense"
+     },
+     {
+      "id": "9786492",
+      "name": "White Dragon Ritual"
+     },
+     {
+      "id": "57728570",
+      "name": "Cruse Card Virus"
+     },
+     {
+      "id": "57728570",
+      "name": "Cruse Card Virus"
+     },
+     {
+      "id": "83555667",
+      "name": "Ring of Destruction"
+     },
+     {
+      "id": "57470761",
+      "name": "Tyrant Wing"
+     },
+     {
+      "id": "36261276",
+      "name": "Interdimensional Matter Transporter"
+     },
+     {
+      "id": "29267084",
+      "name": "Shadow Spell"
+     },
+     {
+      "id": "54178050",
+      "name": "Dragon Rage"
+     },
+     {
+      "id": "14315573",
+      "name": "Nagete Attack"
+     }
+    ]
+   },
+   {
+    "title": "Extra Deck",
+    "cards": [
+     {
+      "id": "23995346",
+      "name": "Blue-Eyes Ultimate Dragon"
+     },
+     {
+      "id": "58293343",
+      "name": "Tyrant Burst Dragon"
+     },
+     {
+      "id": "22804644",
+      "name": "Doom Virus Dragon"
+     },
+     {
+      "id": "91998121",
+      "name": "XYZ-Dragon Cannon"
+     },
+     {
+      "id": "99724761",
+      "name": "XZ-Tank Cannon"
+     },
+     {
+      "id": "2111707",
+      "name": "XY-Dragon Cannon"
+     },
+     {
+      "id": "25119460",
+      "name": "YZ-Tank Dragon"
+     }
+    ]
+   }
+  ]
+ },
+ "dark-magician": {
+  "name": "Dark Magician",
+  "sections": [
+   {
+    "title": "Main Deck",
+    "cards": [
+     {
+      "id": "46986414",
+      "name": "Dark Magician"
+     },
+     {
+      "id": "70781052",
+      "name": "Summoned Skull"
+     },
+     {
+      "id": "28279543",
+      "name": "Curse of Dragon"
+     },
+     {
+      "id": "39256679",
+      "name": "Beta The Magnet Warrior"
+     },
+     {
+      "id": "11549357",
+      "name": "Gamma The Magnet Warrior"
+     },
+     {
+      "id": "67724379",
+      "name": "Koumori Dragon"
+     },
+     {
+      "id": "99785935",
+      "name": "Alpha The Magnet Warrior"
+     },
+     {
+      "id": "13039848",
+      "name": "Giant Soldier of Stone"
+     },
+     {
+      "id": "90357090",
+      "name": "Silver Fang"
+     },
+     {
+      "id": "75347539",
+      "name": "Valkyrion The Magna Warrior"
+     },
+     {
+      "id": "72443568",
+      "name": "Silent Magician LV.8"
+     },
+     {
+      "id": "64681432",
+      "name": "Gandora The Dragon of Destruction"
+     },
+     {
+      "id": "71525232",
+      "name": "Gandora-X The Dragon of Demolition"
+     },
+     {
+      "id": "37267041",
+      "name": "Silent Swordsman LV.7"
+     },
+     {
+      "id": "78193831",
+      "name": "Buster Blader"
+     },
+     {
+      "id": "8910971",
+      "name": "Lord Gaia The Fierce Knight"
+     },
+     {
+      "id": "38033121",
+      "name": "Dark Magician Girl"
+     },
+     {
+      "id": "74388798",
+      "name": "Silent Swordsman LV.5"
+     },
+     {
+      "id": "55010259",
+      "name": "Gold Gadget"
+     },
+     {
+      "id": "71413901",
+      "name": "Breaker The Magical Warrior"
+     },
+     {
+      "id": "29021114",
+      "name": "Silver Gadget"
+     },
+     {
+      "id": "41172955",
+      "name": "Green Gadget"
+     },
+     {
+      "id": "86445415",
+      "name": "Red Gadget"
+     },
+     {
+      "id": "13839120",
+      "name": "Yellow Gadget"
+     },
+     {
+      "id": "78010363",
+      "name": "Witch of the Black Forest"
+     },
+     {
+      "id": "48115277",
+      "name": "BlockMan"
+     },
+     {
+      "id": "41175645",
+      "name": "Silen Magical"
+     },
+     {
+      "id": "73665146",
+      "name": "Silen Magical LV.4"
+     },
+     {
+      "id": "15180041",
+      "name": "Silen Swordsman"
+     },
+     {
+      "id": "57354389",
+      "name": "Sentry Soldier of Stone"
+     },
+     {
+      "id": "56132807",
+      "name": "Apple Magician Girl"
+     },
+     {
+      "id": "1995985",
+      "name": "Silent Swordsman LV.3"
+     },
+     {
+      "id": "26202165",
+      "name": "Sangan"
+     },
+     {
+      "id": "31305911",
+      "name": "Mashmellon"
+     },
+     {
+      "id": "34318086",
+      "name": "Lemon Magician Girl"
+     },
+     {
+      "id": "87774234",
+      "name": "Watapon"
+     },
+     {
+      "id": "66865880",
+      "name": "Mashmellon Glasses"
+     },
+     {
+      "id": "42664989",
+      "name": "Card of Sanctity"
+     },
+     {
+      "id": "75500286",
+      "name": "Gold Sarcophagus"
+     },
+     {
+      "id": "18809562",
+      "name": "Magical Contact Door"
+     },
+     {
+      "id": "27827272",
+      "name": "Makiu the Magical Mist"
+     },
+     {
+      "id": "83764719",
+      "name": "Monster Reborn"
+     },
+     {
+      "id": "44968459",
+      "name": "Silent Burning"
+     },
+     {
+      "id": "18563744",
+      "name": "Silent Swrd Slash"
+     },
+     {
+      "id": "43959432",
+      "name": "Metamorphortress"
+     },
+     {
+      "id": "35100834",
+      "name": "Powerhold the Moving Fortress"
+     },
+     {
+      "id": "62279055",
+      "name": "Magic Cylinder"
+     },
+     {
+      "id": "81210420",
+      "name": "Magic Hat"
+     },
+     {
+      "id": "17841166",
+      "name": "Magnet Force"
+     },
+     {
+      "id": "37383714",
+      "name": "Soul Rope"
+     }
+    ]
+   }
+  ]
+ },
+ "red-eyes-black-dragon": {
+  "name": "Red-Eyes Black Dragon",
+  "sections": [
+   {
+    "title": "Main Deck",
+    "cards": [
+     {
+      "id": "74677422",
+      "name": "Red-Eyes Black Dragon"
+     },
+     {
+      "id": "48305365",
+      "name": "AXE Raider"
+     },
+     {
+      "id": "64428736",
+      "name": "Aligator's Sword"
+     },
+     {
+      "id": "44287299",
+      "name": "Masaki the Legendary Swordsman"
+     },
+     {
+      "id": "89272878",
+      "name": "Gardian of the Labyrinth"
+     },
+     {
+      "id": "10071456",
+      "name": "Protecor of the Throne"
+     },
+     {
+      "id": "88819587",
+      "name": "Baby Dragon"
+     },
+     {
+      "id": "34460851",
+      "name": "Frame Manipulator"
+     },
+     {
+      "id": "55550921",
+      "name": "Battle Warrior"
+     },
+     {
+      "id": "3573512",
+      "name": "Swordsman of Landstar"
+     },
+     {
+      "id": "36354007",
+      "name": "Gilford the Lightning"
+     },
+     {
+      "id": "36354007",
+      "name": "Gilford the Lightning"
+     },
+     {
+      "id": "77585513",
+      "name": "Jinzo"
+     },
+     {
+      "id": "78658564",
+      "name": "Goblin Attack Force"
+     },
+     {
+      "id": "42035044",
+      "name": "Panther Warrior"
+     },
+     {
+      "id": "423705",
+      "name": "Gearfried the Iron Knight"
+     },
+     {
+      "id": "50903514",
+      "name": "Blue Frame Swordsman"
+     },
+     {
+      "id": "30860696",
+      "name": "Rocket Warrior"
+     },
+     {
+      "id": "90790253",
+      "name": "Little Winguard"
+     },
+     {
+      "id": "21015833",
+      "name": "Hayabusa Knight"
+     },
+     {
+      "id": "71625222",
+      "name": "Time Wizard"
+     },
+     {
+      "id": "24094653",
+      "name": "Polymerization"
+     },
+     {
+      "id": "38723936",
+      "name": "Question"
+     },
+     {
+      "id": "42703248",
+      "name": "Giant Trunade"
+     },
+     {
+      "id": "52097679",
+      "name": "Shield & Sword"
+     },
+     {
+      "id": "81439173",
+      "name": "Foolish Burial"
+     },
+     {
+      "id": "83764719",
+      "name": "Monster Reborn"
+     },
+     {
+      "id": "36708764",
+      "name": "Roulette Spider"
+     },
+     {
+      "id": "73915051",
+      "name": "Spacegoat"
+     },
+     {
+      "id": "74137509",
+      "name": "Graceful Dice"
+     },
+     {
+      "id": "55226821",
+      "name": "Lighting Sword"
+     },
+     {
+      "id": "61854111",
+      "name": "Legendary Sword"
+     },
+     {
+      "id": "126218",
+      "name": "Skull Dice"
+     },
+     {
+      "id": "29389368",
+      "name": "Nutrient Z"
+     },
+     {
+      "id": "37313786",
+      "name": "Gamble"
+     },
+     {
+      "id": "37390589",
+      "name": "Kunai with Chain"
+     },
+     {
+      "id": "61705417",
+      "name": "Graverobber"
+     },
+     {
+      "id": "75902998",
+      "name": "Traphole of Spikes"
+     },
+     {
+      "id": "83241722",
+      "name": "Dice Re-Roll"
+     },
+     {
+      "id": "96008713",
+      "name": "Magical Arm Shield"
+     },
+     {
+      "id": "21598948",
+      "name": "Fairy Box"
+     }
+    ]
+   },
+   {
+    "title": "Extra Deck",
+    "cards": [
+     {
+      "id": "41462083",
+      "name": "Thousand Dragon"
+     },
+     {
+      "id": "51828629",
+      "name": "Giltia The D. Knight"
+     },
+     {
+      "id": "45231177",
+      "name": "Flame Swordsman"
+     },
+     {
+      "id": "3366982",
+      "name": "Aligator's Sword Dragon"
+     }
+    ]
+   },
+   {
+    "title": "Side Deck",
+    "cards": [
+     {
+      "id": "14977074",
+      "name": "Garoozis"
+     },
+     {
+      "id": "91512835",
+      "name": "Insect Queen"
+     },
+     {
+      "id": "3643300",
+      "name": "The Legendary Fisherman"
+     },
+     {
+      "id": "27911549",
+      "name": "Parasite Paracide"
+     },
+     {
+      "id": "56916805",
+      "name": "Energy Drain"
+     }
+    ]
+   }
+  ]
+ },
+ "wing-dragon-of-ra": {
+  "name": "The Wing Dragon of Ra",
+  "sections": [
+   {
+    "title": "Main Deck",
+    "cards": [
+     {
+      "id": "10000010",
+      "name": "The Wing Dragon of Ra"
+     },
+     {
+      "id": "102380",
+      "name": "Lava Golem"
+     },
+     {
+      "id": "83764719",
+      "name": "Monster Reborn"
+     },
+     {
+      "id": "26905245",
+      "name": "Metal Reflect Slime"
+     },
+     {
+      "id": "38445524",
+      "name": "Gil Garth"
+     },
+     {
+      "id": "86569121",
+      "name": "Melchide the Four-Face Beast"
+     },
+     {
+      "id": "46821314",
+      "name": "Humanoid Slime"
+     },
+     {
+      "id": "10000080",
+      "name": "The Winged Dragon of Ra - Sphere Mode"
+     },
+     {
+      "id": "76052811",
+      "name": "Helpoemer"
+     },
+     {
+      "id": "13944422",
+      "name": "Granadpra"
+     },
+     {
+      "id": "62543393",
+      "name": "Lekunga"
+     },
+     {
+      "id": "59546797",
+      "name": "Juragedo"
+     },
+     {
+      "id": "21593977",
+      "name": "Makyura the Destructor"
+     },
+     {
+      "id": "99050989",
+      "name": "Drillago"
+     },
+     {
+      "id": "31709826",
+      "name": "Revival Jam"
+     },
+     {
+      "id": "40320754",
+      "name": "Lord Poison"
+     },
+     {
+      "id": "4335645",
+      "name": "Newdoria"
+     },
+     {
+      "id": "90980792",
+      "name": "Dark Jeroid"
+     },
+     {
+      "id": "70124586",
+      "name": "Holding Legs"
+     },
+     {
+      "id": "43730887",
+      "name": "Holding Arms"
+     },
+     {
+      "id": "56043446",
+      "name": "Viser Des"
+     },
+     {
+      "id": "52090844",
+      "name": "Bowganain"
+     },
+     {
+      "id": "10000090",
+      "name": "The Winged Dragon of Ra - Immortal Phoenix"
+     },
+     {
+      "id": "80230510",
+      "name": "Tribute Burial"
+     },
+     {
+      "id": "7165085",
+      "name": "Bait Doll"
+     },
+     {
+      "id": "51482758",
+      "name": "Remove Trap"
+     },
+     {
+      "id": "55144522",
+      "name": "Pot of Greed"
+     },
+     {
+      "id": "86541496",
+      "name": "Left Arm Offering"
+     },
+     {
+      "id": "29228529",
+      "name": "Spell Reproduction"
+     },
+     {
+      "id": "98494543",
+      "name": "Magical Stone Excavation"
+     },
+     {
+      "id": "76714458",
+      "name": "Spell of Pain"
+     },
+     {
+      "id": "95220856",
+      "name": "Vangeful Bog Spirit"
+     },
+     {
+      "id": "70828912",
+      "name": "Premature Burial"
+     },
+     {
+      "id": "65169794",
+      "name": "Black Pendant"
+     },
+     {
+      "id": "1224927",
+      "name": "Melevolent Catastrope"
+     },
+     {
+      "id": "44095762",
+      "name": "Miror Force"
+     },
+     {
+      "id": "93382620",
+      "name": "Rope od Life"
+     },
+     {
+      "id": "2047519",
+      "name": "Hidden Solder"
+     },
+     {
+      "id": "65830223",
+      "name": "Coffin Seller"
+     },
+     {
+      "id": "54704216",
+      "name": "Nightmare Wheel"
+     }
+    ]
+   },
+   {
+    "title": "Extra Deck",
+    "cards": [
+     {
+      "id": "5600127",
+      "name": "Humanoid Worm Drake"
+     }
+    ]
+   },
+   {
+    "title": "Side Deck",
+    "cards": [
+     {
+      "id": "13676474",
+      "name": "Grand Tiki Elder"
+     },
+     {
+      "id": "73216412",
+      "name": "Worm Drake"
+     },
+     {
+      "id": "48948935",
+      "name": "Masked Beast Des Gardius"
+     },
+     {
+      "id": "99747800",
+      "name": "Legendary Fiend"
+     },
+     {
+      "id": "56043446",
+      "name": "Viser Des"
+     },
+     {
+      "id": "56043447",
+      "name": "Viser Des"
+     },
+     {
+      "id": "42664989",
+      "name": "Card of Sanctity"
+     },
+     {
+      "id": "22610082",
+      "name": "The Mask of Remnants"
+     },
+     {
+      "id": "63995093",
+      "name": "Machine Dupication"
+     },
+     {
+      "id": "24094653",
+      "name": "Polymerization"
+     },
+     {
+      "id": "21770260",
+      "name": "Jam Breeding Machine"
+     },
+     {
+      "id": "58607704",
+      "name": "Fiend's Hand Mirror"
+     },
+     {
+      "id": "37507488",
+      "name": "Relieve Monster"
+     },
+     {
+      "id": "12607053",
+      "name": "Weboku"
+     },
+     {
+      "id": "21558682",
+      "name": "Jam Defender"
+     }
+    ]
+   }
+  ]
+ }
+}
